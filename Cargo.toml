@@ -10,10 +10,10 @@ crate-type = ["cdylib"]
 
 
 [dependencies]
-pyo3 = { version = "0.19", features = ["extension-module"] }
-numpy = "0.19"
+pyo3 = { version = "0.24", features = ["extension-module"] }
+numpy = "0.24"
 kdtree = "0.7"
 cty = "0.2"
 
 [build-dependencies]
-cc = "1.0"
+cc = "1.2.10"
